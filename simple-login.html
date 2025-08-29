@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+    <style>
+        body { margin: 0; font-family: Arial; background: #667eea; display: flex; align-items: center; justify-content: center; min-height: 100vh; }
+        .login { background: white; padding: 30px; border-radius: 10px; width: 300px; }
+        input { width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ddd; border-radius: 5px; }
+        button { width: 100%; padding: 10px; background: #ff6b6b; color: white; border: none; border-radius: 5px; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <div class="login">
+        <h2>Login</h2>
+        <input type="email" id="email" placeholder="Email" value="admin@test.com">
+        <input type="password" id="password" placeholder="Password" value="123">
+        <button onclick="login()">Login</button>
+        <p><a href="index.html">Back to Portfolio</a></p>
+    </div>
+    <script>
+        function login() {
+            var email = document.getElementById('email').value;
+            var password = document.getElementById('password').value;
+            if (email === 'admin@test.com' && password === '123') {
+                alert('Login successful!');
+                window.location.href = 'admin.html';
+            } else {
+                alert('Wrong credentials');
+            }
+        }
+    </script>
+</body>
+</html>

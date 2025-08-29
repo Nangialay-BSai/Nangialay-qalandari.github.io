@@ -1,0 +1,25 @@
+Starting Portfolio Backend Server...
+Initializing database...
+Database initialized successfully!
+
+Server starting on http://localhost:5000
+API endpoints available:
+   - POST /api/signup - User registration
+   - POST /api/login - User authentication
+   - POST /api/contact - Contact form submissions
+   - POST /api/projects - Add new projects
+   - GET /api/projects - Get all projects
+   - GET /api/health - Health check
+
+To stop the server, press Ctrl+C
+==================================================
+ * Serving Flask app 'app'
+ * Debug mode: on
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.3:5000
+Press CTRL+C to quit
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 734-668-101
